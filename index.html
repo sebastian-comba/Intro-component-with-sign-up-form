@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Intro component with sign up form</title>
+
+</head>
+<body>
+
+  <div class="row">
+    <div class="col-lg-6 left">
+
+      <h1 class="heading">Learn to code by watching others</h1>
+      <h3 class="description">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</h3>
+
+    </div>
+    <div class="col-lg-6 right">
+      <div class="card blue-card ">
+        <div class="card-body">
+          <p class="try-free"><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+        </div>
+      </div>
+
+      <div class="card inputs">
+        <div class="card-body white-card">
+          <div class="first-input">
+            <input type="text" class="form-control first-name" name="first-name" placeholder="First name">
+            <small class="form-text text-muted first-form "><em>First name cannot be empty.</em></small>
+            <svg class="icon-error first-error hidden-error" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/> <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          </div>
+          <br>
+          <div class="last-input">
+            <input type="text" class="form-control last-name" name="last-name" placeholder="Last name">
+            <small class="form-text text-muted last-form"><em>Last name cannot be empty.</em></small>
+            <svg class="icon-error last-error hidden-error" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/> <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          </div>
+          <br>
+          <div class="email-input">
+            <input type="text" class="form-control email" name="email" placeholder="Email address">
+            <svg class="icon-error email-error hidden-error" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/> <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+            <small class="form-text text-muted email-form"><em>Email address cannot be empty.</em></small>
+            <small class="form-text text-muted email-wrong"><em>Looks like this is not an email.</em></small>
+          </div>
+          <br>
+          <div class="pass-input">
+            <input type="text" class="form-control pass" name="pass" placeholder="Password">
+            <svg class="icon-error pass-error hidden-error" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/> <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+            <small class="form-text text-muted pass-form"><em>Password cannot be empty.</em></small>
+          </div>
+          <br>
+          <button type="button" class="btn btn-success btn-block custom-btn">CLAIM YOUR FREE TRIAL</button>
+          <p class="terms">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/sebaComba" target="_blank">Sebastian Comba</a>.
+    </p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
